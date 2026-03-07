@@ -1,11 +1,5 @@
 # phase-field-hydrogen-fatigue
 
-# Predicting High-Cycle Fatigue under Hydrogen Embrittlement with a Coupled Phase-Field–Diffusion Model
-
-This repository provides the source code and example input files accompanying the paper:
-
-**Predicting High-Cycle Fatigue under Hydrogen Embrittlement with a Coupled Phase-Field–Diffusion Model**
-
 ## Overview
 
 Hydrogen embrittlement can significantly accelerate fatigue crack growth in metallic components exposed to cyclic loading and hydrogen-rich environments. This repository provides an open-source implementation of a coupled phase-field–diffusion framework for predicting hydrogen-assisted fatigue crack propagation.
