@@ -4,6 +4,13 @@ A Felino-based implementation of coupled phase-field and hydrogen-diffusion mode
 
 This repository provides the input files, example cases, and post-processing scripts associated with our published studies on hydrogen-assisted fatigue phase-field modelling.
 
+## ✨ Latest updates
+
+- **May 2026:** The residual-stress-informed hydrogen-assisted fatigue phase-field study has been completed. The associated code and examples will be organized and released in this repository soon.
+- Codes associated with the published IJF, EJMS, and JMRT papers are being organized by paper folder. Further examples and post-processing scripts will be added gradually.
+
+For questions, discussions, or potential collaborations, please feel free to contact: syyang214000@gmail.com
+
 ## Overview
 
 Hydrogen embrittlement can significantly accelerate fatigue crack initiation and fatigue crack growth in metallic materials under cyclic loading. This project implements a coupled phase-field-diffusion framework for simulating hydrogen-assisted fatigue damage, crack initiation, and crack propagation.
