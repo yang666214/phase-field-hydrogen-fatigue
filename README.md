@@ -90,7 +90,7 @@ cd phase-field-hydrogen-fatigue
 
 ## Usage
 
-After MOOSE and Felino are installed, enter the folder of the corresponding paper and run the selected input file using `felino-opt`.
+After MOOSE and Felino are installed, enter the `examples/` folder of the corresponding paper and run the selected input file using `felino-opt`.
 
 For a serial run:
 
@@ -104,14 +104,30 @@ For a parallel run:
 mpiexec -n 8 ~/projects/felino/felino-opt -i input_file.i
 ```
 
-For example:
+For example, to run an example from the IJF paper folder:
 
 ```bash
-cd ~/projects/phase-field-hydrogen-fatigue/01_IJF_2026/inputs
+cd ~/projects/phase-field-hydrogen-fatigue/01_IJF_2026/examples
 mpiexec -n 8 ~/projects/felino/felino-opt -i example.i
 ```
 
-To find all available input files:
+For the EJMS paper folder:
+
+```bash
+cd ~/projects/phase-field-hydrogen-fatigue/02_EJMS_2026/examples
+mpiexec -n 8 ~/projects/felino/felino-opt -i example.i
+```
+
+For the JMRT paper folder:
+
+```bash
+cd ~/projects/phase-field-hydrogen-fatigue/03_JMRT_2026/examples
+mpiexec -n 8 ~/projects/felino/felino-opt -i example.i
+```
+
+Please replace `example.i` with the actual input file name.
+
+To find all available input files in this repository:
 
 ```bash
 find . -name "*.i"
