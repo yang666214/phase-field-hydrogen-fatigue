@@ -36,28 +36,19 @@ The implemented framework supports:
 
 ## Repository structure
 
-The code is organized by paper. Each main folder corresponds to one published study.
+The repository is organized by paper. Each main folder corresponds to one published study, and the related input files and example cases are provided in the `examples/` folder.
 
 ```text
 phase-field-hydrogen-fatigue/
 │
 ├── 01_IJF_2026/
-│   ├── inputs/
-│   ├── meshes/
-│   ├── scripts/
-│   └── README.md
+│   └── examples/
 │
 ├── 02_EJMS_2026/
-│   ├── inputs/
-│   ├── meshes/
-│   ├── scripts/
-│   └── README.md
+│   └── examples/
 │
 ├── 03_JMRT_2026/
-│   ├── inputs/
-│   ├── meshes/
-│   ├── scripts/
-│   └── README.md
+│   └── examples/
 │
 └── README.md
 ```
@@ -198,7 +189,7 @@ Please check the final author lists from the published papers when preparing for
 
 Questions, discussions, and collaborations are very welcome.
 
-Please open an issue in this repository or contact:
+Please contact:
 
 **Shiyuan Yang**  
 Email: syyang214000@gmail.com
